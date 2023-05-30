@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.app {
+  width: 24rem;
+}
+
+.app > * {
+  margin-top: 0.5rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Class สำหรับกล่อง Input */
+.textField {
+
+}
+
+/* Class สำหรับปุ่ม */
+.button {
+
+}
+
+/* Class สำหรับเมื่อปุ่มถูกกด */
+.button:active {
+
+}
+
+/* Class สำหรับปุ่ม Add (ตกแต่งสี) */
+.button-add {
+
+}
+
+/* Class สำหรับเมื่อเอาเมาส์ชี้ปุ่ม Add */
+.button-add:hover {
+
+}
+
+.toolbar {
+  display: flex;
+  justify-content: end;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-width: 1px;
+}
